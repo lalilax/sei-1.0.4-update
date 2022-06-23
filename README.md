@@ -10,9 +10,7 @@ Sunucunuza altta bulunan komutu girip otomatik güncelleme scriptini başlatın
 ### [EN]
 Enter the command below on your server and start the automatic update script.
 
-
-`wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/lalilax104.sh && chmod +x lalilax104.sh && sudo su -c "lalilax104.sh"`
-
+wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/lalilax104.sh && chmod +x lalilax104.sh && sudo /bin/bash lalilax104.sh
 
 ## Unjail olmak | To be unjailed
 
