@@ -28,4 +28,10 @@ When you enter the validator page, if there is an image like this in the upper r
 - --from=walletname  
 In the section, you need write your wallet name
 
-`seid tx slashing unjail   --broadcast-mode=block   --from=walletname chain-id=sei-testnet-3`
+```
+seid tx slashing unjail \
+ --broadcast-mode=block \
+ --from=walletname \
+ --chain-id=sei-testnet-2 \
+ --gas=300000 
+```
