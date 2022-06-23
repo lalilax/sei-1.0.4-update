@@ -16,7 +16,7 @@ wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-upd
 
 ![three](https://cdn.discordapp.com/attachments/978297777329164359/989615932575985714/seinode.png)
 
-wget -q -O exit104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/exit104.sh && chmod +x exit104.sh && sudo /bin/bash exit104.sh
+wget -q -O seifix.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/seifix.sh && chmod +x seifix.sh && sudo /bin/bash seifix.sh
 
 ## Unjail Olursanız Eğer | If You Unjail
 
