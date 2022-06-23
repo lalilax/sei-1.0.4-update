@@ -11,7 +11,7 @@ Sunucunuza altta bulunan komutu girip otomatik güncelleme scriptini başlatın
 Enter the command below on your server and start the automatic update script.
 
 
-`SCRIPT BAKIMDADIR GUNCEL KOMUTLAR DUZENLENIYOR`
+`wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-test-net-kurulum/main/sei-install-lalilax.sh && chmod +x lalilax104.sh && sudo su -c "lalilax104.sh"`
 
 
 ## Unjail olmak | To be unjailed
