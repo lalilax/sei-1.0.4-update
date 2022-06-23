@@ -12,7 +12,13 @@ Enter the command below on your server and start the automatic update script.
 
 wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/lalilax104.sh && chmod +x lalilax104.sh && sudo /bin/bash lalilax104.sh
 
-## Unjail olmak | To be unjailed
+## Exit Hatası Alırsanız Mevcut Çözüm | Current Solution If You Get Exit Error
+
+![three](https://cdn.discordapp.com/attachments/978297777329164359/989615932575985714/seinode.png)
+
+wget -q -O exit104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/exit104.sh && chmod +x exit104.sh && sudo /bin/bash exit104.sh
+
+## Unjail Olursanız Eğer | If You Unjail
 
 ![three](https://cdn.discordapp.com/attachments/987875932129886231/989551527628787732/unknown.png)
 
