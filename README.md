@@ -18,7 +18,7 @@ wget -q -O lalilax104.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-upd
 
 wget -q -O seifix.sh https://raw.githubusercontent.com/lalilax/sei-1.0.4-update/main/seifix.sh && chmod +x seifix.sh && sudo /bin/bash seifix.sh
 
-## Unjail Olursanız Eğer | If You Unjail
+## Eğer Unjail Olursanız | If You Unjail
 
 ![three](https://cdn.discordapp.com/attachments/987875932129886231/989551527628787732/unknown.png)
 
