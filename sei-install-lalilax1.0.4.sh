@@ -26,6 +26,8 @@ sleep 1
 
 #1.0.4b Güncellemesi
 cd
+rm -r sei-chain
+cd 
 rm $HOME/sei -rf
 git clone https://github.com/sei-protocol/sei-chain.git && cd $HOME/sei-chain
 git checkout 1.0.4beta
