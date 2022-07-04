@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #Colors
@@ -11,7 +10,7 @@ mavik="\033[36m"
 
 ############################
 #Sürüm Güncelleme          #
-#v1.0-01.07.2022           #
+#v1.0-04.07.2022           #
 #lalilax                   #
 ############################
 
@@ -26,6 +25,14 @@ sleep 1
 cd sei-chain
 sudo su -c "git checkout 1.0.4beta"
 sleep 1
+sudo apt-get remove golang-go -y
+sudo apt-get remove --auto-remove golang-go -y
+wget -O go1.18.1.linux-amd64.tar.gz https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz && rm go1.18.1.linux-amd64.tar.gz
+echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
+echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
+echo 'export GO111MODULE=on' >> $HOME/.bash_profile
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
 make install
 sleep 1
 go build -o build/seid ./cmd/seid
